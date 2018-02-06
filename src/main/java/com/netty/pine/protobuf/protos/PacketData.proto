@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_outer_classname = "PacketDataProto";
+
+message PacketData {
+ 	int32 cmd           =   1;
+ 	string msg          =   2;
+ 	int32 resultStatus  =   3;
+ 	int32 packetId      =   4;
+ }
